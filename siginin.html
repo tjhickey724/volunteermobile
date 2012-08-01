@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<title>Volnteer hours</title> 
+	<link href="css/jquery.mobile-1.0rc1.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/fatima.css" rel="stylesheet" type="text/css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/senduserinfo.js"></script>
+    <script src="js/jquery.mobile-1.0rc1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/mobiscroll-2.0.custom.min.css" />
+	<script type="text/javascript" src="js/mobiscroll-2.0.custom.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/cordova-1.9.0.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="createsiginin">
+		<div data-role="header" data-position="fixed">
+		 <center> <img src="img/header 4.png" width:50 > </center> 
+     
+      </div>
+   <div data-role="content">	
+	    <div data-role="fieldcontain">
+	   
+	      <fieldset data-role="controlgroup">
+                <label for="email">
+                   Email
+                </label>
+                <input type="text" id="email" placeholder=""/>
+            </fieldset>
+            
+             <fieldset data-role="controlgroup">
+                <label for="password">
+                    Password
+                </label>
+                <input type="password" id="password" placeholder=""/>
+            </fieldset>
+          
+	
+	    	<center><a id="currentLink" data-role="button" data-theme="a" data-inline="true"data-mini="true"style=" color: white;" onClick="senduserinfo()">Sign In</a></center>  
+	     
+	    	 </div>
+	    
+		<div id="status"></div>
+		</div>
+		<footer>
+      
+      <center> <label for="note">
+                   This app for admins who have accounts in 
+                </label> 
+
+
+<a href="http://www.volunteerhours.org">http://www.volunteerhours.org</a></center>
+                <center> <p> (c)Fatima & Avishek </p> </center>
+        </div>
+        </footer>
+	
+</body>
+</html>
